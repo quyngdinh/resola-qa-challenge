@@ -1,0 +1,147 @@
+{
+  "valid_input":{
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+      },
+    "missing_organizationId":{
+          "projectId": "string",
+          "anonymousId": "string",
+          "userId": "string",
+          "requestId": "string",
+          "category": "string",
+          "event": "string",
+          "context": {
+            "userAgent": "string",
+            "deviceType": "pc"
+          },
+          "properties": {},
+          "sentAt": "string"
+      },
+      "missing_projectId":{
+          "organizationId": "string",
+          "anonymousId": "string",
+          "userId": "string",
+          "requestId": "string",
+          "category": "string",
+          "event": "string",
+          "context": {
+            "userAgent": "string",
+            "deviceType": "pc"
+          },
+          "properties": {},
+          "sentAt": "string"
+      },
+  "missing_requestId": {
+          "organizationId": "myorg",
+          "projectId": "myproject",
+          "anonymousId": "user123",
+          "category": "shopping",
+          "event": "add_to_cart",
+          "context": {
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+            "deviceType": "pc"
+          },
+          "properties": {},
+          "sentAt": "2021-05-19T18:07:20.485290+00:00"
+     },
+  "missing_category": {
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+     },
+  "missing_event": {
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+      },
+  "missing_context": {
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+      },
+  "missing_properties": {
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+     },
+  "missing_sentAt": {
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "properties": {}
+  },
+    "wrong_devicetype":{
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "anonymousId": "user123",
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "tablet"
+            },
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+      },
+    "invalid_data_type_userId":{
+            "organizationId": "myorg",
+            "projectId": "myproject",
+            "userId": 1234,
+            "requestId": "123",
+            "category": "shopping",
+            "event": "add_to_cart",
+            "context": {
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+              "deviceType": "pc"
+            },
+            "properties": {},
+            "sentAt": "2021-05-19T18:07:20.485290+00:00"
+      }
+}
